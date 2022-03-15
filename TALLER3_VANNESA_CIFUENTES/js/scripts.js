@@ -1,6 +1,6 @@
 /* 
 NOMBRE:  Suly Vannesa Cifuentes Bohórquez
-Cc: 1049645386
+
 
 TALLER # 3 
 
