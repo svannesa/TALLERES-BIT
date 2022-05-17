@@ -1,0 +1,24 @@
+<p>
+    <mat-toolbar color="accent">
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+
+        <!-- este es el template -->
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink="/cards">HARRY POTTER API</button>
+        </mat-menu>
+
+        <span>TALLER 10 <i class="bi bi-suit-heart"></i>  S.Vannesa Cifuentes </span>
+
+
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+    </mat-toolbar>
+</p>
